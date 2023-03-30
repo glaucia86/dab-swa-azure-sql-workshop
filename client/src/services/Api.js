@@ -9,9 +9,9 @@
 import axios from 'axios';
 
 export default () => axios.create({
-  // ==> DAB request
+  // ==> DAB request(local development)
   // baseURL: 'http://localhost:5000/api',
 
-  // ==> ASWA request
-  baseURL: 'http://localhost:4280/data-api/rest',
+  // ==> ASWA request (production)
+  baseURL: '/data-api/rest',
 });

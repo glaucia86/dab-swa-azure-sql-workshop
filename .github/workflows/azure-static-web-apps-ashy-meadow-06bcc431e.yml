@@ -29,7 +29,6 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: './client'
           api_location: './api'
-          data_api_location: './swa-db-connections'
           output_location: 'dist'
           ###### End of Repository/Build Configurations ######
 
