@@ -6,12 +6,10 @@
  * author: Glaucia Lemos <twitter: @glaucia_lemos86>
  */
 
-import axios from 'axios';
+import axios from "axios";
 
-export default () => axios.create({
-  // ==> DAB request(local development)
-  // baseURL: 'http://localhost:5000/api',
-
-  // ==> ASWA request (production)
-  baseURL: '/data-api/rest',
-});
+export default () =>
+  axios.create({
+    // ==> ASWA request (development/production)
+    baseURL: "/data-api/rest",
+  });
