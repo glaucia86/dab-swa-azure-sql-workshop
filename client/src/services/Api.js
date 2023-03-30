@@ -11,5 +11,5 @@ import axios from "axios";
 export default () =>
   axios.create({
     // ==> ASWA request (development/production)
-    baseURL: "/data-api/rest",
+    // baseURL: "/data-api/rest",
   });
